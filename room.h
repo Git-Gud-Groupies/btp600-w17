@@ -1,3 +1,10 @@
+/*
+
+room.h - version 1.2
+1.1 fix : added body to description() and cost() function in furnitture class
+1.2 fix: added return statement to cost() function in room class
+*/
+
 #ifndef ROOM_H
 #define ROOM_H
 #include <string>
