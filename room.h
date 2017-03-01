@@ -74,6 +74,7 @@ public:
 		for(int i=0;i<numFurniture_;i++){
 			cost+=furniture_[i]->cost();
 		}
+		return cost;
 	}
 	void addChair(string desc, double cost){
 		numChairs_++;
