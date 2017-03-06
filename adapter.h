@@ -3,10 +3,11 @@
 class Stack{
 public:
 	Stack();
-	void push(const Object& o)=0;
-	void pop()=0;
-	Object top()=0;
-	bool isEmpty()=0;
+	virtual void push(const Object& o)=0;
+	virtual void pop()=0;
+	virtual Object top()=0;
+	virtual bool isEmpty()=0;
+	virtual ~Stack();
 };
 
 //DList, a doubly linked list that will do all the work.  You can
