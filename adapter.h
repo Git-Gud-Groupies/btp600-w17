@@ -26,7 +26,7 @@ public:
 		const_iterator operator++(int);
 		const_iterator operator--();
 		const_iterator operator--(int);
-		T operator*() const;
+		Object operator*() const;
 		bool operator==(const_iterator rhs) const;
 		bool operator!=(const_iterator rhs) const;
 	};
@@ -39,7 +39,7 @@ public:
 		iterator operator++(int);
 		iterator operator--();
 		iterator operator--(int);
-		T& operator*();
+		Object& operator*();
 		bool operator==(iterator rhs) const;
 		bool operator!=(iterator rhs) const;
 	};
